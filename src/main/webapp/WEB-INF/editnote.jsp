@@ -12,6 +12,16 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Simple Note Keeper</h1>
+        <h2>Edit Note</h2>
+        <form action="note" method="post">
+            <label>Title: </label>
+            <input type="text" name="title" placeholder="Title">
+            <br>
+            <label>Contents: </label>
+            <input type="text" name="contents" placeholder="Contents">
+            <br>
+            <button type="submit">Save</button>
+        </form>
     </body>
 </html>
